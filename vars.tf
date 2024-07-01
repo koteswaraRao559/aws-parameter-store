@@ -6,6 +6,6 @@ variable "parameters" {
 
     ### Passwords,
     # Passwords Should never be kept under code, It always been created by manually / Separate automation where code is not involved.
-    { name = "dev.rds.password" , type = "SecureString", value = "ExpenseApp@1234"}
+    { name = "dev.rds.password" , type = "SecureString", value = "ExpenseApp1"}
   ]
 }
