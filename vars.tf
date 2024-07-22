@@ -2,6 +2,7 @@ variable "parameters" {
   default = [
     { name = "ses.username" , type = "String", value = "ses-smtp-user.20240528-163905" },
     { name = "dev.rds.username" , type = "String", value = "admin1" },
+    { name = "dev.backend.DB_HOST" , type = "String", value = "admin1" },
 
 
     ### Passwords,
